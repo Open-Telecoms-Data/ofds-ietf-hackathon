@@ -95,15 +95,16 @@ The code for ODFS Studio is in the repo: https://github.com/Open-Telecoms-Data/o
 * Browse the [current set of issues](https://github.com/Open-Telecoms-Data/ofds-qgis-plugin/issues) to see if you can help.
 * Raise any issues and or send a PR for any improvements or suggestions.
 
-### COVE
+### CoVE
 
-COVE is an online tool that performs validation on OFDS files to ensure they are correct. It can be found at https://cove.ofds.info - or it can be installed locally using Docker.
+CoVE (Convert, Validate, and Explore) is an online tool that performs validation on OFDS files to ensure they are correct. It can be found at https://cove.ofds.info - or it can be installed locally using Docker.
 
 The code base is in the repo: https://github.com/Open-Telecoms-Data/cove-ofds
 Issues are at: https://github.com/Open-Telecoms-Data/cove-ofds/issues
 
 **Tasks:**
-* Use COVE - https://cove.ofds.info - 
+* Use COVE - https://cove.ofds.info - and raise issues if you have feedback.
+* Explore [the list of current issues](https://github.com/Open-Telecoms-Data/cove-ofds/issues) to see if you can help.
 
 ----
 
