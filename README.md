@@ -26,6 +26,16 @@ Note: There is a set of [OFDS public data sets](https://github.com/Open-Telecoms
 
 ----
 
+## Getting Started 
+
+Before getting started on projects, you want to review:
+
+* [OFDS Documentation](https://standard.ofds.info/en/latest/) including the [Primer](https://standard.ofds.info/en/latest/primer/)
+* [Blog post- What's New in OFDS 0.4: New Features, GeoPackage Support, and Practical Tools](https://ofds.info/en/blog/2026/04/whats-new-in-ofds-04/)
+* [The main OFDS site](https://ofds.info/en/), including the interactive map, news stories, and other info
+
+----
+
 ## Projects - Mapping
 
 The end result will be a more completely filled-in map that can provide examples of good practice around the world.
@@ -86,6 +96,14 @@ The code for ODFS Studio is in the repo: https://github.com/Open-Telecoms-Data/o
 * Raise any issues and or send a PR for any improvements or suggestions.
 
 ### COVE
+
+COVE is an online tool that performs validation on OFDS files to ensure they are correct. It can be found at https://cove.ofds.info - or it can be installed locally using Docker.
+
+The code base is in the repo: https://github.com/Open-Telecoms-Data/cove-ofds
+Issues are at: https://github.com/Open-Telecoms-Data/cove-ofds/issues
+
+**Tasks:**
+* Use COVE - https://cove.ofds.info - 
 
 ----
 
