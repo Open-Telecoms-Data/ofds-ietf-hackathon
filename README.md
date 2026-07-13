@@ -22,12 +22,11 @@ At the IETF 126 Hackathon, beyond introducing people to OFDS, we'd like to:
 
 ----
 
-## Projects
+## Projects - Mapping
 
-### Mapping - Identifying and digitzing maps
 The end result will be a more completely filled-in map that can provide examples of good practice around the world.
 
-#### Finding Maps of broadband / fiber systems that can be digitized
+### Finding Maps of broadband / fiber systems that can be digitized
 Ready to do some web searching? The objective is to find network maps that are out there that are not yet known. In some countries regulators _may_ have these maps, but usually it is the Internet Service Providers (ISPs) / network operators who may have these maps. Often, they just simply are not posted online.
 
 **Tasks:**
@@ -35,15 +34,17 @@ Ready to do some web searching? The objective is to find network maps that are o
 * Check the [current map](https://opentelecomdata.org/good-practice-map/index.html) to see if it has already been entered
 * Add to [the list of identified maps](identified-maps.md), either [as an issue](https://github.com/Open-Telecoms-Data/ofds-ietf-hackathon/issues) or through a PR.
 
-#### Digitizing maps
+### Digitizing maps
+
+(Add text about process of digitizing maps)
 
 ----
 
-### Tools
+## Projects - Tools
 
 There are several open source tools that work with OFDS. The tasks in the Hackathon would be to test out the tools, raise issues if you experience any problems or have suggestions, review the documentation, and offer changes.
 
-#### KML to OFDS Converter
+### KML to OFDS Converter
 KML2OFDS is a Python script for converting KML maps of fibre optic network infrastructure into OFDS. A typical workflow might involve digitizing a map using `OFDS Studio` (see below) to then generate a KML file. The next step is to take that KML file and run it through `KML2ODFS` to get the resulting ODFS files.
 
 The tool is found in the repo: https://github.com/Open-Telecoms-Data/kml2ofds
@@ -54,7 +55,7 @@ The tool is found in the repo: https://github.com/Open-Telecoms-Data/kml2ofds
 * Review [current issues](https://github.com/Open-Telecoms-Data/kml2ofds/issues) and see if you can assist with more info or a PR.
 * Modify the code to add functionality (using an issue and PR).
 
-#### OFDS Studio
+### OFDS Studio
 
 OFDS Studio is [a plugin for creating and editing OFDS data](https://plugins.qgis.org/plugins/ofds_studio/) using the free and open-source GIS tool [QGIS](https://qgis.org/), you can:
 
@@ -72,15 +73,15 @@ The code for ODFS Studio is in the repo: https://github.com/Open-Telecoms-Data/o
 * Browse the [current set of issues](https://github.com/Open-Telecoms-Data/ofds-qgis-plugin/issues) to see if you can help.
 * Raise any issues and or send a PR for any improvements or suggestions.
 
-#### COVE
+### COVE
 
 ----
 
-### Input Into OFDS Version 0.5
+## Project - Input Into OFDS Version 0.5
 
 ----
 
-### Documentation
+## Project - Documentation
 The current OFDS documentation has been developed over time, but could certainly use new sets of eyes. The task here will be to read through the docs and offer suggestions to make them better / simpler / easier-to-understan.
 
 **Tasks:**
@@ -91,20 +92,20 @@ The current OFDS documentation has been developed over time, but could certainly
 
 ----
 
-### Virtualization
+## Project - Virtualization
 
 The open source tools identified above could be virtualized so that they could be easily installed via Docker or similar technologies.
 
 ----
 
-### Other Project Ideas
+## Other Project Ideas
 
 There are MANY other things that can be done with OFDS. A few suggestions are below.
 
-#### Export into OFDS
+### Export into OFDS
 * Create a tool / plugin / module that will export into OFDS?
 * Add OFDS export into an existing tool?
 
-#### Import from OFDS
+### Import from OFDS
 * Import OFDS into Open Street Map?
 * Import OFDS into Open Infrastructure Map? - https://openinframap.org
