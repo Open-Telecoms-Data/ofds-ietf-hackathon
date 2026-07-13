@@ -1,9 +1,12 @@
 # IETF 126 Hackathon - Open Fibre Data Standard (OFDS)
 18-19 July 2026 - Vienna, Austria.
 
-📆📆📆📆📆📆📆📆📆📆📆📆  
-**COME TO OUR SIDE MEETING - Weds, July 22, 2:45-3:45 - Grand Klimt Hall 3**  
+📆📆📆📆📆📆📆📆📆📆📆📆\
+**COME TO OUR SIDE MEETING - Weds, July 22, 2:45-3:45 - Grand Klimt Hall 3**\
 📆📆📆📆📆📆📆📆📆📆📆📆
+
+The Open Fibre Data Standard (OFDS) - [ofds.info](https://ofds.info) - is a format to describe fibre and
+broadband networks that can be used to generate maps for understanding Internet resilience.
 
 ----
 
