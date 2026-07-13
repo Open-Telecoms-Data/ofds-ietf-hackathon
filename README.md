@@ -31,9 +31,9 @@ The end result will be a more completely filled-in map that can provide examples
 Ready to do some web searching? The objective is to find network maps that are out there that are not yet known. In some countries regulators _may_ have these maps, but usually it is the Internet Service Providers (ISPs) / network operators who may have these maps. Often, they just simply are not posted online.
 
 **Tasks:**
-* Find broadband maps through searching.
-* Check the [current](https://opentelecomdata.org/good-practice-map/index.html) to see if it has already been entered
-* Add to [file]
+* Find broadband maps through searching. (You can use the [current map](https://opentelecomdata.org/good-practice-map/index.html) to see where maps are needed.)
+* Check the [current map](https://opentelecomdata.org/good-practice-map/index.html) to see if it has already been entered
+* Add to [the list of identified maps](identified-maps.md), either [as an issue](https://github.com/Open-Telecoms-Data/ofds-ietf-hackathon/issues) or through a PR.
 
 #### Digitizing maps
 
@@ -56,11 +56,25 @@ The tool is found in the repo: https://github.com/Open-Telecoms-Data/kml2ofds
 
 #### OFDS Studio
 
+OFDS Studio is [a plugin for creating and editing OFDS data](https://plugins.qgis.org/plugins/ofds_studio/) using the free and open-source GIS tool [QGIS](https://qgis.org/), you can:
+
+* Create OFDS data from scratch
+* Import and edit an existing OFDS dataset
+* Check that the data conforms to the OFDS data model
+* Export OFDS data in GeoPackage and JSON formats.
+
+You can also leverage QGIS’s powerful suite of GIS features to trace and digitise raster maps, transform non-OFDS datasets into OFDS format, and combine your OFDS data with a range of basemaps and geospatial datasets to perform spatial analysis and processing.
+
+The code for ODFS Studio is in the repo: https://github.com/Open-Telecoms-Data/ofds-qgis-plugin
+
+**Tasks:**
+* Install OFDS Studio (and QGIS if necessary) and raise [any issues](https://github.com/Open-Telecoms-Data/ofds-qgis-plugin/issues) found during installation
+* Browse the [current set of issues](https://github.com/Open-Telecoms-Data/ofds-qgis-plugin/issues) to see if you can help.
+* Raise any issues and or send a PR for any improvements or suggestions.
+
 #### COVE
 
 ----
-
-
 
 ### Input Into OFDS Version 0.5
 
@@ -78,6 +92,8 @@ The current OFDS documentation has been developed over time, but could certainly
 ----
 
 ### Virtualization
+
+The open source tools identified above could be virtualized so that they could be easily installed via Docker or similar technologies.
 
 ----
 
