@@ -49,7 +49,7 @@ Ready to do some web searching? The objective is to find network maps that are o
 There are several open source tools that work with OFDS. The tasks in the Hackathon would be to test out the tools, raise issues if you experience any problems or have suggestions, review the documentation, and offer changes.
 
 ### KML to OFDS Converter
-KML2OFDS is a Python script for converting KML maps of fibre optic network infrastructure into OFDS. A typical workflow might involve digitizing a map using `OFDS Studio` (see below) to then generate a KML file. The next step is to take that KML file and run it through `KML2ODFS` to get the resulting ODFS files.
+KML2OFDS is a Python script for converting KML maps of fibre optic network infrastructure into OFDS. A typical workflow might involve digitizing a map using Google Earth (see above) to then generate a KML file. The next step is to take that KML file and run it through `KML2ODFS` to get the resulting ODFS files.
 
 The tool is found in the repo: https://github.com/Open-Telecoms-Data/kml2ofds
 
