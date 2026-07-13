@@ -15,7 +15,7 @@ OFDS is NOT _(yet)_ an IETF standard. It was developed independently by a group 
 ## Goals
 At the IETF 126 Hackathon, beyond introducing people to OFDS, we'd like to:
 * Expand the [Good Practice Map](https://opentelecomdata.org/good-practice-map/index.html) with more examples of maps of fibre / broadband maps.
-* Digitize some of the identified maps so that they are available in OFDS.
+* Digitize some of the identified maps so that they are available in OFDS and can be added to the [public data sets](https://github.com/Open-Telecoms-Data/OFDS-public-data).
 * Install, use, review, fix the open source tools that work with OFDS.
 * Improve the current documentation for OFDS.
 * Provide feedback on the current draft 0.4 of OFDS.
