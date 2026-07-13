@@ -22,6 +22,10 @@ At the IETF 126 Hackathon, beyond introducing people to OFDS, we'd like to:
 
 ----
 
+Note: There is a set of [OFDS public data sets](https://github.com/Open-Telecoms-Data/OFDS-public-data) that can be used to see what OFDS looks like, and for testing some of the different tools and systems.
+
+----
+
 ## Projects - Mapping
 
 The end result will be a more completely filled-in map that can provide examples of good practice around the world.
