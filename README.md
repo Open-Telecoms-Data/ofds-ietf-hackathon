@@ -3,8 +3,12 @@
 
 This page will document what will be happening for OFDS activity at the IETF 126 Hackathon. 
 
+----
+
 ## Goals
 x
+
+----
 
 ## Projects
 
