@@ -1,7 +1,9 @@
 # IETF 126 Hackathon - Open Fibre Data Standard (OFDS)
 18-19 July 2026 - Vienna, Austria.
 
-This page will document what will be happening for OFDS activity at the IETF 126 Hackathon. 
+📆📆📆📆📆📆📆📆📆📆📆📆
+**COME TO OUR SIDE MEETING - Weds, July 22, 2:45-3:45 - Grand Klimt Hall 3**
+📆📆📆📆📆📆📆📆📆📆📆📆
 
 ----
 
