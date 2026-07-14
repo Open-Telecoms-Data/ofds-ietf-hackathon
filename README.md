@@ -6,7 +6,7 @@
 📆📆📆📆📆📆📆📆📆📆📆📆
 
 The Open Fibre Data Standard (OFDS) - [ofds.info](https://ofds.info) - is a format to describe fibre and
-broadband networks that can be used to generate maps for understanding Internet resilience. Network operators use many different formats for mapping their networks. OFDS is an attempt to provide a common language.
+broadband networks for analyzing and mapping Internet resilience at the infrastructure level. Network operators use many different formats for mapping their networks. OFDS is an attempt to provide a common language.
 
 How can you ensure a reliable and resilient Internet connection... **if you do NOT know where the physical cables are?**  How can you know your outage risk for a natural disaster or a power outage, if you don't know the physical routes of cables? This is what OFDS can assist with.
 
