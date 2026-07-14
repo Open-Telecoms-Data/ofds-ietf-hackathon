@@ -6,7 +6,7 @@
 📆📆📆📆📆📆📆📆📆📆📆📆
 
 The Open Fibre Data Standard (OFDS) - [ofds.info](https://ofds.info) - is a format to describe fibre and
-broadband networks for analyzing and mapping Internet resilience at the infrastructure level. Network operators use many different formats for mapping their networks. OFDS is an attempt to provide a common language.
+broadband networks for analyzing and mapping Internet resilience at the infrastructure level. Network operators use many different formats for mapping their networks. OFDS is an attempt to provide a common language. (see [demonstration map](https://ofds-demo.opentelecomdata.org/))
 
 How can you ensure a reliable and resilient Internet connection... **if you do NOT know where the physical cables are?**  How can you know your outage risk for a natural disaster or a power outage, if you don't know the physical routes of cables? This is what OFDS can assist with.
 
@@ -17,7 +17,7 @@ OFDS is NOT _(yet)_ an IETF standard. The specification was developed independen
 ## Goals
 At the IETF 126 Hackathon, beyond introducing people to OFDS, we'd like to:
 * Expand the [Good Practice Map](https://opentelecomdata.org/good-practice-map/index.html) with more examples of maps of fibre / broadband maps.
-* Digitize some of the identified maps so that they are available in OFDS and can be added to the [public data sets](https://github.com/Open-Telecoms-Data/OFDS-public-data).
+* Digitize some of the identified maps so that they are available in OFDS and can be added to the [public data sets](https://github.com/Open-Telecoms-Data/OFDS-public-data) as well as our [demonstration map](https://ofds-demo.opentelecomdata.org/).
 * Install, use, review, fix the open source tools that work with OFDS.
 * Improve the current documentation for OFDS.
 * Provide input into the next version 0.5 of OFDS. (See [call for input](https://github.com/Open-Telecoms-Data/open-fibre-data-standard/discussions/355))
@@ -41,7 +41,7 @@ Before getting started on projects, you want to review:
 
 ## Projects - Mapping
 
-There are two parts to the mapping work. First, we want to use standard web searching / open source intelligence (OSINT) to find existing fiber / broadband maps that are out there. We want to include them in our "Good Practice Map". Then, based on those maps, we want to start digitizing them so that we can ultimately get OFDS files that we can incorporate into our OFDS demonstration map.
+There are two parts to the mapping work. First, we want to use standard web searching / open source intelligence (OSINT) to find existing fiber / broadband maps that are out there. We want to include them in our "Good Practice Map". Then, based on those maps, we want to start digitizing them so that we can ultimately get OFDS files that we can incorporate into [our OFDS demonstration map]https://ofds-demo.opentelecomdata.org/).
 
 ### Finding Maps of broadband / fiber systems that can be digitized
 Ready to do some web searching? The objective is to find network maps that are out there that are not yet known. In some countries regulators _may_ have these maps, but usually it is the Internet Service Providers (ISPs) / network operators who may have these maps. Often, they just simply are not posted online.
@@ -59,12 +59,23 @@ Once maps have been identified, we need to turn the map into something that can 
 
 **Tasks:**
 
-[STILL BEING FINALIZED]
+Prerequisites:
 
-* Get a JPEG of the network map
-* Import into (Google Earth?)
-* Follow these steps (to be added)
-* Export your data as... (to be added)
+• Google Earth installed..
+• Image map in jpg or png format of fibre optic network to digitize.
+
+Steps for digitizing maps in Google Earth:
+
+1. Search for country where network exists in search bar and click Search. This will zoom you to the country in question..
+2. From the menu select Add | Image Overlay.  When the dialog box opens, select Browse and look for the image map on your local system..
+3. The map will appear overlayed over the country you zoomed to.  Don't close the dialog box..
+4. Adjust the transparency slider until you can see the Google map through the image but still make out key elements of the image map..
+5. Click and drag the green highlighted edges of the image map so that geographic elements in the image map correspond with the geography in Google Earth.
+6. Once the image map is ideally aligned, give the image a suitable name and click OK..
+7. Create a folder with the name of the network under Places on the left hand side of Google Earth. Create a Nodes and a Spans subfolder under the Network folder..
+8. Add Points of Presence in the Nodes folder by selected Add | Placemark from the menu.  Give each node the place name of its geographic location e.g. town name, city name..
+9. Draw spans (fibre routes) connecting the Points of Presence, tracing the routes on the image map.  Where fibre appears to follow roads, you may choose to trace the road itself.  Make sure Roads is selected in the Layers window to do this.  Save the routes you have drawn into the Spans folder..
+10. Once you have successfully traced both Nodes (Points of Presence) and Span (fibre routes), Right Click on the network folder that contains the Nodes and Spans subfolders, and select Save Place As....  Give your export a meaningful name like the name of the network and select KML not KMZ, then click Save.  That's it..
 
 Note: You can [watch this 24-minute video](https://www.youtube.com/watch?v=WVOz8_AR_X0) to see the steps involved.
 
