@@ -8,7 +8,9 @@
 The Open Fibre Data Standard (OFDS) - [ofds.info](https://ofds.info) - is a format to describe fibre and
 broadband networks that can be used to generate maps for understanding Internet resilience. Network operators use many different formats for mapping their networks. OFDS is an attempt to provide a common language.
 
-OFDS is NOT _(yet)_ an IETF standard. It was developed independently by a group of organizations including the World Bank, Mozilla, Internet Society, Internet Telecommunication Union (ITU), Liquid Intelligent Technologies, CSquared, and Digital Council Africa. The group is now seeking a permanent institutional home for OFDS in a standards development organization (SDO) and is here at IETF 126 to see if there is sufficient interest within the IETF to explore bringing it into the IETF process.
+How can you ensure a reliable and resilient Internet connection... **if you do NOT know where the physical cables are?**  How can you know your outage risk for a natural disaster or a power outage, if you don't know the physical routes of cables? This is what OFDS can assist with.
+
+OFDS is NOT _(yet)_ an IETF standard. The specification was developed independently by a group of organizations including the World Bank, Mozilla, Internet Society, Internet Telecommunication Union (ITU), Liquid Intelligent Technologies, CSquared, and Digital Council Africa. The group is now seeking a permanent institutional home for OFDS in a standards development organization (SDO) and is here at IETF 126 to see if there is sufficient interest within the IETF to explore bringing it into the IETF process.
 
 ----
 
@@ -38,7 +40,7 @@ Before getting started on projects, you want to review:
 
 ## Projects - Mapping
 
-The end result will be a more completely filled-in map that can provide examples of good practice around the world.
+There are two parts to the mapping work. First, we want to use standard web searching / open source intelligence (OSINT) to find existing fiber / broadband maps that are out there. We want to include them in our "Good Practice Map". Then, based on those maps, we want to start digitizing them so that we can ultimately get OFDS files that we can incorporate into our OFDS demonstration map.
 
 ### Finding Maps of broadband / fiber systems that can be digitized
 Ready to do some web searching? The objective is to find network maps that are out there that are not yet known. In some countries regulators _may_ have these maps, but usually it is the Internet Service Providers (ISPs) / network operators who may have these maps. Often, they just simply are not posted online.
