@@ -18,7 +18,7 @@ At the IETF 126 Hackathon, beyond introducing people to OFDS, we'd like to:
 * Digitize some of the identified maps so that they are available in OFDS and can be added to the [public data sets](https://github.com/Open-Telecoms-Data/OFDS-public-data).
 * Install, use, review, fix the open source tools that work with OFDS.
 * Improve the current documentation for OFDS.
-* Provide feedback on the current draft 0.4 of OFDS.
+* Provide input into the next version 0.5 of OFDS. (See [call for input](https://github.com/Open-Telecoms-Data/open-fibre-data-standard/discussions/355))
 
 ----
 
@@ -129,6 +129,10 @@ The current OFDS documentation has been developed over time, but could certainly
 * Go to where documentation currently is in this repo: https://github.com/Open-Telecoms-Data/open-fibre-data-standard/tree/0.4-dev/docs
     * [Raise issues](https://github.com/Open-Telecoms-Data/open-fibre-data-standard/issues)
     * Open a pull request with suggestions
+ 
+* This can also be done for the [OFDS Developer Handbook](https://ofds-standard-development-handbook.readthedocs.io/en/latest/)
+    * Repo: https://github.com/Open-Telecoms-Data/standard-development-handbook/tree/main
+    * Issues: https://github.com/Open-Telecoms-Data/standard-development-handbook/issues
 
 ----
 
