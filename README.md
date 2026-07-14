@@ -44,8 +44,8 @@ The end result will be a more completely filled-in map that can provide examples
 Ready to do some web searching? The objective is to find network maps that are out there that are not yet known. In some countries regulators _may_ have these maps, but usually it is the Internet Service Providers (ISPs) / network operators who may have these maps. Often, they just simply are not posted online.
 
 **Tasks:**
-* Find broadband maps through searching. (You can use the [current map](https://opentelecomdata.org/good-practice-map/index.html) to see where maps are needed.)
-* Check the [current map](https://opentelecomdata.org/good-practice-map/index.html) to see if it has already been entered
+* Find broadband maps through searching. (You can use the [current map](https://opentelecomdata.org/good-practice-map/index.html) to see where maps are needed. Note that a country is shaded if only _one_ map is found. There may be many more networks within a shaded country.)
+* Once you have found a network map, check the [current map](https://opentelecomdata.org/good-practice-map/index.html) to see if it has already been entered
 * Add to [the list of identified maps](identified-maps.md), either [as an issue](https://github.com/Open-Telecoms-Data/ofds-ietf-hackathon/issues) or through a PR.
 
 ### Digitizing maps
@@ -67,12 +67,12 @@ Note: You can watch this 10-minute video (add link) to see the steps involved.
 There are several open source tools that work with OFDS. The tasks in the Hackathon would be to test out the tools, raise issues if you experience any problems or have suggestions, review the documentation, and offer changes.
 
 ### KML to OFDS Converter
-KML2OFDS is a Python script for converting KML maps of fibre optic network infrastructure into OFDS. A typical workflow might involve digitizing a map using Google Earth (see above) to then generate a KML file. The next step is to take that KML file and run it through `KML2ODFS` to get the resulting ODFS files.
+KML2OFDS is a Python script for converting KML maps of fibre optic network infrastructure into OFDS. A typical workflow might involve digitizing a map using Google Earth (see above) to then generate a KML file. The next step is to take that KML file and run it through `KML2OFDS` to get the resulting ODFS files.
 
 The tool is found in the repo: https://github.com/Open-Telecoms-Data/kml2ofds
 
 **Tasks:**
-* Install `KML2ODFS` and get it running.
+* Install `KML2OFDS` and get it running.
 * Review the documentation and [raise any issues](https://github.com/Open-Telecoms-Data/kml2ofds/issues)
 * Review [current issues](https://github.com/Open-Telecoms-Data/kml2ofds/issues) and see if you can assist with more info or a PR.
 * Modify the code to add functionality (using an issue and PR).
@@ -88,7 +88,7 @@ OFDS Studio is [a plugin for creating and editing OFDS data](https://plugins.qgi
 
 You can also leverage QGIS’s powerful suite of GIS features to trace and digitise raster maps, transform non-OFDS datasets into OFDS format, and combine your OFDS data with a range of basemaps and geospatial datasets to perform spatial analysis and processing.
 
-The code for ODFS Studio is in the repo: https://github.com/Open-Telecoms-Data/ofds-qgis-plugin
+The code for OFDS Studio is in this repo: https://github.com/Open-Telecoms-Data/ofds-qgis-plugin
 
 **Tasks:**
 * Install OFDS Studio (and QGIS if necessary) and raise [any issues](https://github.com/Open-Telecoms-Data/ofds-qgis-plugin/issues) found during installation
@@ -108,7 +108,16 @@ Issues are at: https://github.com/Open-Telecoms-Data/cove-ofds/issues
 
 ----
 
-## Project - Input Into OFDS Version 0.5
+## Project - Provide Input Into OFDS Version 0.5
+
+With the release of OFDS version 0.4 in April 2026 ([announcement](https://ofds.info/en/blog/2026/04/whats-new-in-ofds-04/)), the group is now looking for how OFDS should evolve for the next 0.5 version. **You can help provide input!**
+
+**Tasks:**
+* Read the **[Call for Inputs into 0.5](https://github.com/Open-Telecoms-Data/open-fibre-data-standard/discussions/355)**
+* Provide feedback on any of the listed open issues, particularly:
+    * https://github.com/Open-Telecoms-Data/open-fibre-data-standard/issues/352
+    * https://github.com/Open-Telecoms-Data/open-fibre-data-standard/issues/354
+* Add any additional suggestions to [the list of open issues](https://github.com/Open-Telecoms-Data/open-fibre-data-standard/issues)
 
 ----
 
