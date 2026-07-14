@@ -36,6 +36,7 @@ Before getting started on projects, you want to review:
 * [Blog post- What's New in OFDS 0.4: New Features, GeoPackage Support, and Practical Tools](https://ofds.info/en/blog/2026/04/whats-new-in-ofds-04/)
 * [The main OFDS site](https://ofds.info/en/), including the interactive map, news stories, and other info
 
+* If you want to work with the current set of OFDS tools, [watch this 24-minute video](https://www.youtube.com/watch?v=WVOz8_AR_X0) walking through how the tools work.
 ----
 
 ## Projects - Mapping
@@ -62,7 +63,7 @@ Once maps have been identified, we need to turn the map into something that can 
 * Follow these steps (to be added)
 * Export your data as... (to be added)
 
-Note: You can watch this 10-minute video (add link) to see the steps involved.
+Note: You can [watch this 24-minute video](https://www.youtube.com/watch?v=WVOz8_AR_X0) to see the steps involved.
 
 ----
 
