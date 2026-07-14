@@ -61,8 +61,9 @@ Once maps have been identified, we need to turn the map into something that can 
 
 Prerequisites:
 
-• Google Earth installed..
-• Image map in jpg or png format of fibre optic network to digitize.
+* [Google Earth installed](https://support.google.com/earth/answer/21955?hl=en).
+     * We have to use the desktop version of Google Earth as the web version does not yet support image overlays.
+* Image map in jpg or png format of fibre optic network to digitize.
 
 Steps for digitizing maps in Google Earth:
 
