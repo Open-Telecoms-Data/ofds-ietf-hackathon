@@ -67,16 +67,18 @@ Prerequisites:
 
 Steps for digitizing maps in Google Earth:
 
-1. Search for country where network exists in search bar and click Search. This will zoom you to the country in question..
-2. From the menu select Add | Image Overlay.  When the dialog box opens, select Browse and look for the image map on your local system..
-3. The map will appear overlayed over the country you zoomed to.  Don't close the dialog box..
-4. Adjust the transparency slider until you can see the Google map through the image but still make out key elements of the image map..
+1. Search for country where network exists in search bar and click Search. This will zoom you to the country in question.
+2. From the menu select Add | Image Overlay.  When the dialog box opens, select Browse and look for the image map on your local system.
+3. The map will appear overlayed over the country you zoomed to.  **Don't close the dialog box.**
+4. Adjust the transparency slider until you can see the Google map through the image but still make out key elements of the image map.
 5. Click and drag the green highlighted edges of the image map so that geographic elements in the image map correspond with the geography in Google Earth.
-6. Once the image map is ideally aligned, give the image a suitable name and click OK..
-7. Create a folder with the name of the network under Places on the left hand side of Google Earth. Create a Nodes and a Spans subfolder under the Network folder..
-8. Add Points of Presence in the Nodes folder by selected Add | Placemark from the menu.  Give each node the place name of its geographic location e.g. town name, city name..
-9. Draw spans (fibre routes) connecting the Points of Presence, tracing the routes on the image map.  Where fibre appears to follow roads, you may choose to trace the road itself.  Make sure Roads is selected in the Layers window to do this.  Save the routes you have drawn into the Spans folder..
-10. Once you have successfully traced both Nodes (Points of Presence) and Span (fibre routes), Right Click on the network folder that contains the Nodes and Spans subfolders, and select Save Place As....  Give your export a meaningful name like the name of the network and select KML not KMZ, then click Save.  That's it..
+6. Once the image map is ideally aligned, give the image a suitable name and click OK.
+7. Create a folder with the name of the network under Places on the left hand side of Google Earth. Create a Nodes and a Spans subfolder under the Network folder.
+8. Add Points of Presence in the Nodes folder by selected Add | Placemark from the menu.  Give each node the place name of its geographic location e.g. town name, city name.
+9. Draw spans (fibre routes) connecting the Points of Presence, tracing the routes on the image map.  Where fibre appears to follow roads, you may choose to trace the road itself.  Make sure Roads is selected in the Layers window to do this.  Save the routes you have drawn into the Spans folder.
+10. Once you have successfully traced both Nodes (Points of Presence) and Span (fibre routes), Right Click on the network folder that contains the Nodes and Spans subfolders, and select Save Place As....  Give your export a meaningful name like the name of the network and select KML not KMZ, then click Save.  That's it.
+
+Now that you have a KML file, you can potentially use the KML2OFDS tool (below) to convert the KML to OFDS. After that, the OFDS file can be added to the [OFDS public data sets](https://github.com/Open-Telecoms-Data/OFDS-public-data).
 
 Note: You can [watch this 24-minute video](https://www.youtube.com/watch?v=WVOz8_AR_X0) to see the steps involved.
 
