@@ -44,9 +44,11 @@ The end result will be a more completely filled-in map that can provide examples
 Ready to do some web searching? The objective is to find network maps that are out there that are not yet known. In some countries regulators _may_ have these maps, but usually it is the Internet Service Providers (ISPs) / network operators who may have these maps. Often, they just simply are not posted online.
 
 **Tasks:**
-* Find broadband maps through searching. (You can use the [current map](https://opentelecomdata.org/good-practice-map/index.html) to see where maps are needed. Note that a country is shaded if only _one_ map is found. There may be many more networks within a shaded country.)
+* Find broadband maps through searching.
+    * You can use the [current map](https://opentelecomdata.org/good-practice-map/index.html) to see where maps are needed.
+    * Note that a country is shaded if only _one_ map is found. There may be many more networks within a shaded country.
 * Once you have found a network map, check the [current map](https://opentelecomdata.org/good-practice-map/index.html) to see if it has already been entered
-* Add to [the list of identified maps](identified-maps.md), either [as an issue](https://github.com/Open-Telecoms-Data/ofds-ietf-hackathon/issues) or through a PR.
+* Submit the map [by filling out this form](https://opentelecomdata.org/good-practice-map/submit.html)
 
 ### Digitizing maps
 
