@@ -10,7 +10,7 @@ broadband networks that can be used to generate maps for understanding Internet 
 
 How can you ensure a reliable and resilient Internet connection... **if you do NOT know where the physical cables are?**  How can you know your outage risk for a natural disaster or a power outage, if you don't know the physical routes of cables? This is what OFDS can assist with.
 
-OFDS is NOT _(yet)_ an IETF standard. The specification was developed independently by a group of organizations including the World Bank, Mozilla, Internet Society, Internet Telecommunication Union (ITU), Liquid Intelligent Technologies, CSquared, and Digital Council Africa. The group is now seeking a permanent institutional home for OFDS in a standards development organization (SDO) and is here at IETF 126 to see if there is sufficient interest within the IETF to explore bringing it into the IETF process.
+OFDS is NOT _(yet)_ an IETF standard. The specification was developed independently by a group of organizations including the World Bank, Mozilla, Internet Society, Internet Telecommunication Union (ITU), Liquid Intelligent Technologies, CSquared, and Digital Council Africa. The group is now seeking a permanent institutional home for OFDS in a standards development organization (SDO). They are here at IETF 126 to see if there is sufficient interest within the IETF to explore bringing it into the IETF process.
 
 ----
 
