@@ -57,6 +57,8 @@ Ready to do some web searching? The objective is to find network maps that are o
 
 Once maps have been identified, we need to turn the map into something that can be converted to OFDS. If the map is already in Google Earth, or has a KML file, we can potentially use the `KML2OFDS` tool (below) to generate OFDS. Otherwise, it is a process that involves tracing over the endpoints.
 
+Note: It is also possible to do all the digitizing within [QGIS](https://qgis.org/), but our experience so far is that people find it easier to do within Google Earth, as outlined below.
+
 **Tasks:**
 
 Prerequisites:
