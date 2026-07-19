@@ -41,7 +41,7 @@ Before getting started on projects, you want to review:
 
 ## Projects - Mapping
 
-There are two parts to the mapping work. First, we want to use standard web searching / open source intelligence (OSINT) to find existing fiber / broadband maps that are out there. We want to include them in our "Good Practice Map". Then, based on those maps, we want to start digitizing them so that we can ultimately get OFDS files that we can incorporate into [our OFDS demonstration map]https://ofds-demo.opentelecomdata.org/).
+There are two parts to the mapping work. First, we want to use standard web searching / open source intelligence (OSINT) to find existing fiber / broadband maps that are out there. We want to include them in our "Good Practice Map". Then, based on those maps, we want to start digitizing them so that we can ultimately get OFDS files that we can incorporate into [our OFDS demonstration map](https://ofds-demo.opentelecomdata.org/).
 
 ### Finding Maps of broadband / fiber systems that can be digitized
 Ready to do some web searching? The objective is to find network maps that are out there that are not yet known. In some countries regulators _may_ have these maps, but usually it is the Internet Service Providers (ISPs) / network operators who may have these maps. Often, they just simply are not posted online.
